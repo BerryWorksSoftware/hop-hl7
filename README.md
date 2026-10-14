@@ -13,6 +13,14 @@ The initial direction is to read HL7 v2 messages into structured rows for use in
 Hop pipelines. An admission notification (`ADT^A01`) is the first demonstration
 target, including patient context, procedures, and insurance groups.
 
+## Quick Start
+
+Explore the [HL7 admission Quick Start](quick-start-hl7/README.md), which includes
+an entirely synthetic `ADT^A01` message, a YAML model, a Hop pipeline, and expected
+CSV results for procedures and insurance plans. Running it currently requires an
+unreleased development build with HL7 support; the example is available for
+inspection ahead of the first public preview.
+
 ## About this repository
 
 This is the public home for the plugin's documentation, examples, release
