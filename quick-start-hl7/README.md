@@ -7,14 +7,14 @@ clinical system, or coding is needed to run the demo.
 
 ## Before you start
 
-This example currently requires Apache Hop 2.19.0, Java 21 or later, and an
-**unreleased development build with HL7 support**. No public HL7 installation
-package is available yet. The EDI plugin's 0.1.0 preview cannot run this example.
-See the [repository README](../README.md#development-status) for release status.
+Use Apache Hop 2.19.0, Java 21 or later, and the **BerryWorks HL7 Input
+0.2.0-rc1 release candidate**. This candidate is being tested locally and has not
+been published as a GitHub release. See the [installation instructions](../README.md#install-the-release-candidate)
+when you have been given the candidate ZIP.
 
-The supplied pipeline currently uses the development transform's `EDI Input`
-plugin type. It will be updated for the separate HL7 plugin when that build is
-ready; do not substitute a transform name or plugin type manually.
+The pipeline uses the separate `BerryWorksHl7Input` transform, displayed as
+**HL7 Input** under **BerryWorks HL7**. The EDI plugin's 0.1.0 preview and the
+older EDI Input development transform cannot substitute for this plugin.
 
 Download this repository using GitHub **Code → Download ZIP**, extract it, and
 keep the entire `quick-start-hl7` folder together in a writable location. This
