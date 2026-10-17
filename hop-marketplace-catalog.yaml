@@ -1,0 +1,10 @@
+# Release candidate; activate after its GitHub pre-release is public.
+plugins:
+- groupId: com.berryworks
+  artifactId: hop-hl7-plugin
+  version: 0.2.0-rc1
+  name: BerryWorks HL7 Input
+  category: BerryWorks HL7
+  description: Read HL7 v2 ADT admissions with model-based loop detection
+  minHopVersion: 2.19.0
+  installPath: plugins/transforms/hop-hl7-plugin

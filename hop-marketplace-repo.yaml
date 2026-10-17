@@ -1,0 +1,20 @@
+# Import after the GitHub pre-release and these files are public.
+schemaVersion: '1.0'
+kind: hop-marketplace-repository
+id: berryworks-hl7
+name: BerryWorks HL7
+url: https://github.com/BerryWorksSoftware/hop-hl7
+primary: false
+enabled: true
+browse: true
+urlTemplate: https://github.com/BerryWorksSoftware/hop-hl7/releases/download/v${version}/${artifactId}-${version}.zip
+catalogUrl: https://raw.githubusercontent.com/BerryWorksSoftware/hop-hl7/main/hop-marketplace-catalog.yaml
+includeSnapshots: false
+plugins:
+- groupId: com.berryworks
+  artifactId: hop-hl7-plugin
+  version: 0.2.0-rc1
+  name: BerryWorks HL7 Input
+  category: BerryWorks HL7
+  description: Read HL7 v2 ADT admissions with model-based loop detection
+  minHopVersion: 2.19.0
